@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* header */
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+.header{
+    max-width: 100%;
+    width: 1360px;
+    background-color: rgb(221, 112, 9);
+    overflow:hidden;
+}
+
+.header a{
+    float:left;
+    display: block;
+    color:white;
+    text-align:center;
+    margin-top:5px;
+    margin-left: 15px;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+}
+
+.header a:hover{
+    background-color:#ddd;
+    color:white;
+}
+.header a.active{
+    color:black;
+}
+
+.header input[type=search]{
+    float:left;
+    padding:6px;
+    border:none;
+    width: 35vw;
+    margin-top:13px;
+    margin-right:16px;
+    font-size:17px;
+    border-radius: 20px;
+}
+
+/* end of header */
+
+/* container */
+.container{
+    max-width: 100%;
+    margin-top: 30px;
+}
+    /* grid */
+            .container .row{
+                max-width: 100%;
+                width: 1310px;
+                height: 1400px;
+                background-color: black;
+                margin-left: 20px;
+                margin-bottom: 25px;
+            }
+
+                /* left column */
+                    .container .row .column{
+                        max-width: 100%;
+                        height: 1000px;
+                        width: 360px;
+                        background-color: brown;
+                        position: absolute;
+                    }
+
+                /* profile */
+                    .container .row .column .profcontain .profile{
+                        background-color: white;
+                        box-shadow: 2px 3px 10px;
+                        max-width: 100%;
+                        width: 360px;
+                        height: 300px;  
+                        border-radius: 6%;
+                    }
+
+                  /* end of left column */
+
+                  /* middle column   */
+                    .container .row .midcol{
+                        max-width: 100%;
+                        height: 1000px;
+                        width: 710px;   
+                        margin-left: 360px;
+                        background-color: aqua;
+                        position: absolute;
+                    }
+
+                        /* post */
+                            .container .row .midcol .pad{
+                                
+                            }
+                        /* end of post */
+
+
+                  /* end of middle column */
+
+                  /* right column */
+
+                    .container .row .rightcol{
+                        background-color: blueviolet;
+                        max-width: 100%;
+                        margin-left: 1070px;
+                        height:1000px;
+                        width: 240px;
+                    }
+
+                  /* end of right column */
+
+    /* end of grid  */
+
+/* end of container */
+
+
+/* footer */
+.footer{
+    max-width: 100%;
+    width: 100vw;
+    height: 8vh;
+    overflow: hidden;
+    background-color: orange;
+}
+/* end of footer */
